@@ -1,0 +1,69 @@
+::selection {
+  background-color: #89b8ff;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  margin-top: -8vh;
+  width: 100%;
+  padding-top: 17%;
+  padding-bottom: 17%;
+  background-image: url("../img/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, .5);
+  transform: skewY(-4deg);
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: skewY(4deg);
+}
+
+nav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  text-align: right;
+  margin-right: 100px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+nav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  text-align: right;
+  margin-right: 100px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  font-weight: 300;
+}
+
+nav a:hover {transition: .5s;color: blue;}
+
+#logo_nav {width: 150px; position: absolute; display: block; top: 0; margin-top: 8.5px; margin-left: 60px;}
