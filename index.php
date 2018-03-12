@@ -1,3 +1,7 @@
+<?php
+  include 'includes/conn.php';
+ ?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -23,11 +27,7 @@
         <h1>COOL</h1>
         <p>ENERGY</p>
       </div>
-
-      <a href="#section2"><p><i class="fa fa-angle-down"></i></p></a>
     </header>
-
-
 
 
     <!-- ________________________________________ -->
@@ -78,10 +78,6 @@
 
   <div class="main">
     <section></section>
-  </div>
-
-  <div class="main" id="section2">
-    <section style="background-color:blue"></section>
   </div>
 
   </body>
