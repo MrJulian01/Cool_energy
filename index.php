@@ -71,14 +71,6 @@
 
     <!-- ________________________________________ -->
 
-    <footer id="footer">
-
-    </footer>
-
-
-  <div class="main">
-    <section></section>
-  </div>
-
+    <?php include "includes/footer.php"?>
   </body>
 </html>
