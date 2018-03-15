@@ -27,7 +27,7 @@
     <!-- main -->
       <main id="main_content">
         <section id="weekactie">
-
+          <h1>nigggeeeeeeeeeeeeer</h1>
         </section>
       </main>
 

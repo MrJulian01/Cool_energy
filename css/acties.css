@@ -1,3 +1,13 @@
+@media (min-width: 1200px){
+
+}
+@media (min-width: 768px){
+
+}
+@media (max-width: 575px){
+
+}
+
 ::selection {
   background-color: #89b8ff;
   color: white;
@@ -13,14 +23,14 @@ body {
 header {
   margin-top: -8vh;
   width: 100%;
-  padding-top: 10%;
-  padding-bottom: 7%;
-  background-image: url("../img/banner_drinking.png");
+  padding-top: 12%;
+  padding-bottom: 9%;
+  background-image: url("../img/ski2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
-  background-color: rgba(76,76,255, 0.9);
+  background-color: rgba(0, 0, 128, 0.7);
   transform: skewY(-4deg);
 }
 
@@ -41,7 +51,6 @@ header h1 {
 }
 
 /*    NAVIGATION    */
-
 nav {
   width: 100%;
   position: absolute;
@@ -55,7 +64,7 @@ nav a {
   padding: 1vw;
   text-decoration: none;
   color: #F5F5F5;
-  margin: 40px;
+  margin: 1vw;
   font-weight: 600;
 }
 
@@ -66,8 +75,8 @@ nav a:hover {
 }
 
 /*    MAIN CONTENT    */
-#weekactie img{
-
+#weekactie{
+  text-align: center;
 }
 
 /*    FOOTER    */
