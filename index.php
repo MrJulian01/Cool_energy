@@ -60,10 +60,6 @@
           </article>
         </section>
 
-        <section id="middle_content">
-
-        </section>
-
       </main>
 
 
