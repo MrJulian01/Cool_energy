@@ -19,7 +19,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
-  background-color: rgba(76,76,255, 0.9);
+  background-color: rgba(0, 0, 128, 0.7);
   transform: skewY(-4deg);
 }
 
@@ -158,4 +158,11 @@ MIDDLE CONTENT  */
   background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
 }

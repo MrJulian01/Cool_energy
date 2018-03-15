@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="css/master.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
     <title>Cool energy</title>
   </head>
   <body>
