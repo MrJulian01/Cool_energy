@@ -6,14 +6,15 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
   font-family: 'Poppins', sans-serif;
 }
 
 header {
   margin-top: -8vh;
   width: 100%;
-  padding-top: 15%;
-  padding-bottom: 15%;
+  padding-top: 10%;
+  padding-bottom: 7%;
   background-image: url("../img/banner_drinking.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -23,14 +24,6 @@ header {
   transform: skewY(-4deg);
 }
 
-header a {
-  position: absolute;
-  font-size: 30px;
-  color: white;
-  text-align: center;
-}
-
-
 header h1 {
   text-align: center;
   color: white;
@@ -39,24 +32,15 @@ header h1 {
 }
 
 .header_content h1 {
-  font-size: 110px;
+  font-size: 80px;
   font-weight: 100;
-}
-
-.header_content p {
-  font-size: 20px;
-  color: #096bff;
-  line-height: 0em;
-  text-align: center;
-  margin-top: -105px;
-  font-weight: 200;
-  letter-spacing: 43px;
-  margin-left: 50px;
 }
 
 .header_content {
   transform: skewY(4deg);
 }
+
+/*    NAVIGATION    */
 
 nav {
   width: 100%;
@@ -68,7 +52,7 @@ nav {
 
 nav a {
   text-transform: uppercase;
-  padding: 20px;
+  padding: 1vw;
   text-decoration: none;
   color: #F5F5F5;
   margin: 40px;
@@ -81,81 +65,13 @@ nav a:hover {
   color: white;
 }
 
-#logo_nav {width: 150px; position: absolute; display: block; top: 0; margin-top: 8.5px; margin-left: 60px;}
-
-
 /*    MAIN CONTENT    */
+#weekactie img{
 
-#top_content {
+}
+
+/*    FOOTER    */
+footer{
   width: 100%;
   text-align: center;
-  transform: skewY(-4deg);
-  margin-top: -20px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-#top_content article {
-  transform: skewY(4deg);
-}
-
-#top_content h2 {
-  text-align: center;
-  font-weight: 300;
-  transform: skewY(4deg);
-  padding-top: 100px;
-}
-
-#top_content h3 {
-  line-height: 0em;
-  font-weight: 300;
-  padding-bottom: 25px;
-  font-size: 30px;
-}
-
-#top_content h4{line-height: 0em;}
-#top_content p {line-height: 18px; font-weight: 200;}
-#top_content #price {font-weight: 300; font-size: 30px; line-height: 20px;}
-
-#top_content article {
-  margin: 100px;
-  display: inline-block;
-  text-align: left;
-  vertical-align: top;
-}
-
-.fa-shopping-cart {color: darkblue;}
-
-#top_content a {
-  border: 2px solid #096bff;
-  background-color: #096bff;
-  color: white;
-  padding: 12px;
-  text-decoration: none;
-}
-
-#top_content a:hover {
-  transition: .7s;
-  background: none;
-  color: darkblue;
-}
-
-#display {width: 300px;}
-
-strike {color: #096bff;}
-
-
-/* ------------------------------------
-MIDDLE CONTENT  */
-
-#middle_content {
-  transform: skewY(-4deg);
-  background-image: url("../img/banner5.jpg");
-  background-blend-mode: multiply;
-  background-color: rgba(76,76,255, 0.7);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
