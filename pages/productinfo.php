@@ -39,11 +39,20 @@
 
     <!-- ________________________________________ -->
 
-      <main id="main_content">
+    <main id="main_content">
+      <section id="top_content">
+        <article>
+          <h4>Energy aardbei</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor incididunt utris nisi ut aliquip ex ea commodo consequat.</p>
+        </article>
 
+        <article>
+          <!-- Onderstaande afbeelding veranderen naar de aardbei variant ! -->
+          <img id="display" src="../img/Display_aarbei.png" alt="display">
+        </article>
+      </section>
 
-
-      </main>
+    </main>
 
 
     <!-- ________________________________________ -->

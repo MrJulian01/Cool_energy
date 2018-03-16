@@ -81,8 +81,6 @@ nav a:hover {
   color: white;
 }
 
-#logo_nav {width: 150px; position: absolute; display: block; top: 0; margin-top: 8.5px; margin-left: 60px;}
-
 
 /*    MAIN CONTENT    */
 
@@ -132,11 +130,11 @@ nav a:hover {
   vertical-align: top;
 }
 
-.fa-shopping-cart {color: darkblue;}
+.fa-shopping-cart {color: #096bff;}
 
 #top_content a {
-  border: 2px solid #096bff;
-  background-color: #096bff;
+  border: 2px solid #008CBA;
+  background-color: #008CBA;
   color: white;
   padding: 12px;
   text-decoration: none;
@@ -144,8 +142,8 @@ nav a:hover {
 
 #top_content a:hover {
   transition: .7s;
-  background: none;
-  color: white;
+  background-color: #0080aa;
+  border: 2px solid #0080aa;
 }
 
 #display {width: 300px;}

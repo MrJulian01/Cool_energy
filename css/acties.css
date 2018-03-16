@@ -25,7 +25,7 @@ header {
   width: 100%;
   padding-top: 12%;
   padding-bottom: 9%;
-  background-image: url("../img/ski2.jpg");
+  background-image: url("../img/ski3.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,7 +50,9 @@ header h1 {
   transform: skewY(4deg);
 }
 
+
 /*    NAVIGATION    */
+
 nav {
   width: 100%;
   position: absolute;
@@ -61,7 +63,7 @@ nav {
 
 nav a {
   text-transform: uppercase;
-  padding: 1vw;
+  padding: 20px;
   text-decoration: none;
   color: #F5F5F5;
   margin: 1vw;
