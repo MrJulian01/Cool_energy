@@ -25,11 +25,17 @@
     <?php include "../includes/nav.php"?>
 
     <!-- main -->
-      <main id="main_content">
-        <section id="weekactie">
-          <h1>nigggeeeeeeeeeeeeer</h1>
-        </section>
-      </main>
+    <main id="main_content">
+      <section id="weekactie">
+        <h2><strong>Aanbieding</strong> van de week</h2>
+        <?php include '../includes/weekactie.php'?>
+      </section>
+
+      <section id="acties">
+        <h2>Onze andere <strong>aanbiedingen</strong></h2>
+        <?php include '../includes/acties.php'?>
+      </section>
+    </main>
 
     <!-- footer -->
     <?php include "../includes/footer.php"?>

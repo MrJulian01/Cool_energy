@@ -1,10 +1,10 @@
-@media (min-width: 1200px){
-
-}
-@media (min-width: 768px){
-
-}
+/*  mobile  */
 @media (max-width: 575px){
+
+}
+
+/*  Desktop */
+@media (min-width: 575px){
 
 }
 
@@ -50,38 +50,119 @@ header h1 {
   transform: skewY(4deg);
 }
 
-
 /*    NAVIGATION    */
 
-nav {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  text-align: right;
-  padding-top: 20px;
-}
+  nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-align: right;
+    padding-top: 20px;
+  }
 
-nav a {
-  text-transform: uppercase;
-  padding: 20px;
-  text-decoration: none;
-  color: #F5F5F5;
-  margin: 1vw;
-  font-weight: 600;
-}
+  nav a {
+    text-transform: uppercase;
+    padding: 20px;
+    text-decoration: none;
+    color: #F5F5F5;
+    margin: 1vw;
+    font-weight: 600;
+  }
 
-nav a:hover {
-  transition: .4s;
-  background-color: rgba(176, 178, 186, 0.3);
-  color: white;
-}
+  nav a:hover {
+    transition: .4s;
+    background-color: rgba(176, 178, 186, 0.3);
+    color: white;
+  }
 
 /*    MAIN CONTENT    */
-#weekactie{
+
+#weekactie {
+  width: 100%;
   text-align: center;
+  transform: skewY(-4deg);
+  margin-top: -20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("../img/ski.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: 1px solid white;
 }
 
+#weekactie article {
+  color: white;
+  transform: skewY(4deg);
+}
+
+#weekactie h2 {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  transform: skewY(4deg);
+}
+
+#weekactie h3 {
+  line-height: 0em;
+  font-weight: 700;
+  padding-bottom: 25px;
+  font-size: 30px;
+  transform: skewY(4deg);
+}
+
+#weekactie h4{
+  line-height: 0em;
+  transform: skewY(4deg);
+}
+#weekactie p {line-height: 18px; font-weight: 200;}
+#weekactie article {
+  margin: 100px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+
+.fa-shopping-cart {color: #096bff;}
+
+#weekactie a {
+  border: 2px solid #008CBA;
+  background-color: #008CBA;
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+}
+
+strike {color: #096bff;}
+
+#acties{
+  width: 100%;
+  text-align: center;
+  transform: skewY(-4deg);
+  margin-top: -20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("../img/ski.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: 1px solid red;
+}
+
+#acties h2 {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  transform: skewY(4deg);
+}
 /*    FOOTER    */
+
 footer{
   width: 100%;
   text-align: center;

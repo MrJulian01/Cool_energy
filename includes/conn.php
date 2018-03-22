@@ -8,7 +8,7 @@
   $conn = mysqli_connect($host, $user, $pass, $dbname);
 
   if (!$conn) {
-    die("Database connectie niet gelukt!");
+    die("Database connection failed");
   }
 
 ?>
