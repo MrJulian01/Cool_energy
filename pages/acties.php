@@ -28,11 +28,11 @@
     <main id="main_content">
       <section id="weekactie">
         <h2><strong>Aanbieding</strong> van de week</h2>
-        <?php include '../includes/weekactie.php'?>
+        <?php  include '../includes/weekactie.php'?>
       </section>
 
       <section id="acties">
-        <h2>Onze andere <strong>aanbiedingen</strong></h2>
+        <h2>All onze <strong>aanbiedingen</strong></h2>
         <?php include '../includes/acties.php'?>
       </section>
     </main>
