@@ -44,19 +44,37 @@
         <article>
           <h4>Energy aardbei</h4>
           <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor incididunt utris nisi ut aliquip ex ea commodo consequat.</p>
+
+          <div>
+            <a href="">lorem ipsum</a>
+          </div>
         </article>
 
         <article>
-          <!-- Onderstaande afbeelding veranderen naar de aardbei variant ! -->
           <img id="display" src="../img/Display_aarbei.png" alt="display">
+        </article>
+      </section>
+
+
+      <section id="middle_content">
+        <article>
+          <img id="display" src="../img/Nutrition.png" alt="Nutrition Facts">
+        </article>
+        <article>
+          <h4>Energy aardbei</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor incididunt utris nisi ut aliquip ex ea commodo consequat.</p>
+
+          <div>
+            <a href="">lorem ipsum</a>
+          </div>
         </article>
       </section>
 
     </main>
 
 
-    <!-- ________________________________________ -->
+    <!-- ___________________FOOTER_____________________ -->
 
-    <?php include "../includes/footer.php"?>
+    <!-- <?php include "../includes/footer.php"?> -->
   </body>
 </html>
