@@ -1,6 +1,86 @@
-/*  DROPDOWN NAVIGATION MENU  */
+/*  Mobile dropdown menu  */
 @media (max-width: 575px){
-  /*  [INSERT DROPDOWN MENU]  */
+  /*    NAVIGATION    */
+
+  nav {
+    width: 100%;
+    position: relative ;
+    text-align: right;
+  }
+
+  nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #F5F5F5;
+    font-weight: 600;
+    transform: skewY(4deg);
+  }
+
+  nav a:hover {
+    transition: .4s;
+    background-color: rgba(176, 178, 186, 0.3);
+    color: white;
+  }
+
+  .navigation{
+    width: 100vw;
+  }
+
+  .navigation a:not(:nth-child(5)){
+    width: 100vw;
+    display: none;
+  }
+
+  .navigation.mobile{
+    width: 100vw;
+    display: block;
+    height: vh;
+  }
+
+  .navigation.mobile a:not(:nth-child(5)){
+    width: 100vw;
+    display: block;
+    text-align: center;
+    padding: 1.75vh 0;
+  }
+
+  .icon{
+    position: absolute;
+    top: 1.5em;
+    right: 1em;
+  }
+}
+
+@media (min-width: 576px){
+  /*    NAVIGATION    */
+
+  nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-align: right;
+    padding-top: 20px;
+  }
+
+  nav a {
+    text-transform: uppercase;
+    padding: 20px;
+    text-decoration: none;
+    color: #F5F5F5;
+    margin: 1vw;
+    font-weight: 600;
+    transform: skewY(4deg);
+  }
+
+  nav a:hover {
+    transition: .4s;
+    background-color: rgba(176, 178, 186, 0.3);
+    color: white;
+  }
+
+  nav .icon{
+   display: none;
+  }
 }
 
 ::selection {
@@ -44,31 +124,6 @@ header h1 {
 .header_content {
   transform: skewY(4deg);
 }
-
-/*    NAVIGATION    */
-
-  nav {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    text-align: right;
-    padding-top: 20px;
-  }
-
-  nav a {
-    text-transform: uppercase;
-    padding: 20px;
-    text-decoration: none;
-    color: #F5F5F5;
-    margin: 1vw;
-    font-weight: 600;
-  }
-
-  nav a:hover {
-    transition: .4s;
-    background-color: rgba(176, 178, 186, 0.3);
-    color: white;
-  }
 
 /*    MAIN CONTENT    */
 

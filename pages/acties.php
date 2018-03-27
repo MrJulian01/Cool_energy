@@ -16,6 +16,9 @@
 
     <!-- header -->
     <header>
+      <!-- navigation -->
+      <?php include "../includes/nav.php"?>
+
       <div class="header_content">
         <h1>acties</h1>
       </div>
@@ -40,5 +43,7 @@
     <!-- footer -->
     <?php include "../includes/footer.php"?>
 
+    <!-- script to make navigation mobile-->
+    <script src="../js/opennav.js"></script>
   </body>
 </html>
