@@ -58,7 +58,7 @@
 
       <section id="middle_content">
         <article>
-          <img id="display" src="../img/Nutrition.png" alt="Nutrition Facts">
+          <img id="nutrition" src="../img/Nutrition.png" alt="Nutrition Facts">
         </article>
         <article>
           <h4>Energy aardbei</h4>
@@ -70,11 +70,21 @@
         </article>
       </section>
 
+      <section id="down_content">
+        <article>
+          <h4>Voor meer informatie</h4>
+          <p><i id="icon" class="fa fa-desktop"></i> www.freemoa.nl <br><br> <i id="icon" class="fa fa-phone"></i> 0900 - 235 - 3227</p>
+        </article>
+        <article>
+          <i id="icon2" class="fab fa-facebook-f"></i><i id="icon2" class="fab fa-instagram"></i><i id="icon2" class="fab fa-twitter"></i>
+        </article>
+      </section>
+
     </main>
 
 
     <!-- ___________________FOOTER_____________________ -->
 
-    <!-- <?php include "../includes/footer.php"?> -->
+    <!-- <?php include '../includes/footer.php'?> -->
   </body>
 </html>
