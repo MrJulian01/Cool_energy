@@ -86,5 +86,10 @@
     <!-- ___________________FOOTER_____________________ -->
 
     <!-- <?php include '../includes/footer.php'?> -->
+
+
+    <!-- script to make navigation mobile-->
+    <script src="../js/opennav.js"></script>
+
   </body>
 </html>
