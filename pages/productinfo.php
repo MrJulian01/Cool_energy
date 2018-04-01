@@ -85,7 +85,7 @@
 
     <!-- ___________________FOOTER_____________________ -->
 
-    <!-- <?php include '../includes/footer.php'?> -->
+    <?php include '../includes/footer.php'?>
 
 
     <!-- script to make navigation mobile-->
