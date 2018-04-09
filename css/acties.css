@@ -1,10 +1,10 @@
 /*  Mobile dropdown menu  */
 @media (max-width: 575px){
   /*    NAVIGATION    */
-
   nav {
     width: 100%;
-    position: relative ;
+    position: relative;
+    top: 0;
     text-align: right;
   }
 
@@ -34,7 +34,6 @@
   .navigation.mobile{
     width: 100vw;
     display: block;
-    height: vh;
   }
 
   .navigation.mobile a:not(:nth-child(5)){
@@ -51,15 +50,15 @@
   }
 }
 
-@media (min-width: 576px){
+@media (min-width: 575px){
   /*    NAVIGATION    */
 
   nav {
     width: 100%;
-    position: absolute;
+    position: relative;
     top: 0;
     text-align: right;
-    padding-top: 20px;
+    transform: skewY(4deg);
   }
 
   nav a {
@@ -98,7 +97,7 @@ body {
 header {
   margin-top: -8vh;
   width: 100%;
-  padding-top: 12%;
+  padding-top: 10%;
   padding-bottom: 9%;
   background-image: url("../img/ski3.jpeg");
   background-position: center;
@@ -192,10 +191,6 @@ strike {color: #096bff;}
   text-align: center;
   font-weight: 300;
   transform: skewY(4deg);
-}
-
-#actiesimg{
-
 }
 
 #acties h3 {
