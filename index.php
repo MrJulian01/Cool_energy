@@ -21,6 +21,14 @@
     <!-- _________________HEADER_________________ -->
 
     <header id="header">
+      <nav id="nav" class="navigation">
+        <a href="index.php">Home</a>
+        <a href="pages/productinfo.php">Productinfo</a>
+        <a href="pages/eventlijst.php">Eventlijst</a>
+        <a href="pages/acties.php">Alle acties</a>
+        <a href="javascript:void(0);" class="icon" onclick="opennav()">&#9776;</a>
+      </nav>
+
       <div class="header_content">
         <h1>COOL</h1>
         <p>ENERGY</p>
@@ -30,12 +38,7 @@
 
     <!-- __________________NAV___________________ -->
 
-      <nav id="nav">
-        <a href="index.php">Home</a>
-        <a href="pages/productinfo.php">Productinfo</a>
-        <a href="pages/eventlijst.php">Eventlijst</a>
-        <a href="pages/acties.php">Alle acties</a>
-      </nav>
+
 
 
     <!-- ___________________MAIN_________________ -->

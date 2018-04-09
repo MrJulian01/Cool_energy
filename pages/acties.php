@@ -24,9 +24,6 @@
       </div>
     </header>
 
-    <!-- navigation -->
-    <?php include "../includes/nav.php"?>
-
     <!-- main -->
     <main id="main_content">
       <section id="weekactie">
