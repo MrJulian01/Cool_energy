@@ -49,11 +49,6 @@
     top: 1.5em;
     right: 1em;
   }
-
-  footer{
-    text-align: center;
-    padding-top: 1vh;
-  }
 }
 
 @media (min-width: 576px){

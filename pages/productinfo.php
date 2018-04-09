@@ -1,7 +1,6 @@
 <?php
   include '../includes/conn.php';
  ?>
-
 <!DOCTYPE html>
 <html>
   <head>
