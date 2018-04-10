@@ -48,6 +48,10 @@
     top: 1.5em;
     right: 1em;
   }
+
+  header{
+    padding-top: 10%;
+  }
 }
 
 @media (min-width: 575px){
@@ -55,9 +59,8 @@
 
   nav {
     width: 100%;
-    position: relative;
-    top: 0;
-    text-align: right;
+    display: flex;
+    justify-content: space-around;
     transform: skewY(4deg);
   }
 
@@ -68,7 +71,6 @@
     color: #F5F5F5;
     margin: 1vw;
     font-weight: 600;
-    transform: skewY(4deg);
   }
 
   nav a:hover {
@@ -79,6 +81,10 @@
 
   nav .icon{
    display: none;
+  }
+
+  header{
+    padding-top: 5%;
   }
 }
 
@@ -97,7 +103,6 @@ body {
 header {
   margin-top: -8vh;
   width: 100%;
-  padding-top: 10%;
   padding-bottom: 9%;
   background-image: url("../img/ski3.jpeg");
   background-position: center;
