@@ -17,9 +17,11 @@
   </head>
   <body>
 
-    <!-- ________________________________________ -->
+    <!-- header -->
+    <header>
+      <!-- navigation -->
+      <?php include "../includes/nav.php"?>
 
-    <header id="header">
       <div class="header_content">
         <h1>productinfo</h1>
       </div>
@@ -28,24 +30,14 @@
 
     <!-- ________________________________________ -->
 
-      <nav id="nav">
-        <a href="../index.php">Home</a>
-        <a href="productinfo.php">Productinfo</a>
-        <a href="eventlijst.php">Eventlijst</a>
-        <a href="acties.php">Alle acties</a>
-      </nav>
-
-
-    <!-- ________________________________________ -->
-
     <main id="main_content">
       <section id="top_content">
-        <article>
+        <article class="left_article">
           <h4>Energy aardbei</h4>
           <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor incididunt utris nisi ut aliquip ex ea commodo consequat.</p>
 
           <div>
-            <a href="">lorem ipsum</a>
+            <a href="">bekijk meer</a>
           </div>
         </article>
 
@@ -59,15 +51,16 @@
         <article>
           <img id="nutrition" src="../img/Nutrition.png" alt="Nutrition Facts">
         </article>
-        <article>
-          <h4>Energy aardbei</h4>
+        <article class="right_article">
+          <h4>Nutrition Facts</h4>
           <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor incididunt utris nisi ut aliquip ex ea commodo consequat.</p>
 
           <div>
-            <a href="">lorem ipsum</a>
+            <a href="">lees meer</a>
           </div>
         </article>
       </section>
+
 
       <section id="down_content">
         <article>
