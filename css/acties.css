@@ -187,12 +187,11 @@ strike {color: #096bff;}
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 1);
-  color: white;
+  background-color: #ffffff;
+  color: black;
 }
 
 #acties h2 {
-  color: white;
   text-align: center;
   font-weight: 300;
   transform: skewY(4deg);
