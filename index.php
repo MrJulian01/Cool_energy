@@ -32,7 +32,8 @@
 
 
       <div class="header_content">
-        <h1>home</h1>
+        <h1>COOL</h1>
+        <p>ENERGY</p>
       </div>
     </header>
 

@@ -194,6 +194,8 @@
   .header_content h1 {
     font-size: 110px;
     font-weight: 100;
+    text-align: center;
+    color: white;
   }
 
   .header_content p {
