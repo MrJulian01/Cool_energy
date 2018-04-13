@@ -54,10 +54,6 @@
     right: 1em;
   }
 
-  header {
-    padding-top: 10%;
-  }
-
   body {
     margin: 0;
     padding: 0;
@@ -67,7 +63,7 @@
   header {
     margin-top: -8vh;
     width: 100%;
-    padding-top: 15%;
+    padding-top: 10%;
     padding-bottom: 15%;
     background-image: url("../img/snowboarding.jpeg");
     background-position: center;
@@ -78,24 +74,11 @@
     transform: skewY(-4deg);
   }
 
-  header a {
-    position: absolute;
-    font-size: 30px;
-    color: white;
-    text-align: center;
-  }
-
-
-  header h1 {
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 200;
-  }
-
   .header_content h1 {
     font-size: 110px;
     font-weight: 100;
+    text-align: center;
+    color: white;
   }
 
   .header_content p {
@@ -113,33 +96,15 @@
     transform: skewY(4deg);
   }
 
-  nav {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    text-align: right;
-    padding-top: 20px;
-  }
-
-  nav a {
-    text-transform: uppercase;
-    padding: 20px;
-    text-decoration: none;
-    color: #F5F5F5;
-    margin: 1vw;
-    font-weight: 600;
-  }
-
-  nav a:hover {
-    transition: .4s;
-    background-color: rgba(176, 178, 186, 0.3);
-    color: white;
-  }
-
-
   /*    MAIN CONTENT    */
 
   #weekactie{
+    text-align: center;
+  }
+
+  /*  FOOTER  */
+
+  footer{
     text-align: center;
   }
 }
