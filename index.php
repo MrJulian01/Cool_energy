@@ -20,26 +20,21 @@
 
     <!-- _________________HEADER_________________ -->
 
-    <header id="header">
+    <header>
+      <!-- navigation -->
       <nav id="nav" class="navigation">
         <a href="index.php">Home</a>
         <a href="pages/productinfo.php">Productinfo</a>
-        <a href="pages/eventlijst.php">Eventlijst</ a>
+        <a href="pages/eventlijst.php">Eventlijst</a>
         <a href="pages/acties.php">Alle acties</a>
         <a href="javascript:void(0);" class="icon" onclick="opennav()">&#9776;</a>
       </nav>
 
+
       <div class="header_content">
-        <h1>COOL</h1>
-        <p>ENERGY</p>
+        <h1>home</h1>
       </div>
     </header>
-
-
-    <!-- __________________NAV___________________ -->
-
-
-
 
     <!-- ___________________MAIN_________________ -->
 
@@ -47,12 +42,11 @@
         <section id="weekactie">
           <?php include 'includes/weekactie homepage.php'?>
         </section>
-
-        <!--button needs to be implemented. Styling will be discussed with head design-->
       </main>
 
     <!-- _________________ FOOTER_______________________ -->
 
     <?php include "includes/footer.php"?>
+    <script type="text/javascript" src="js/opennav.js"></script>
   </body>
 </html>

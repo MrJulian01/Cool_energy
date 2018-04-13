@@ -146,7 +146,6 @@
 
 @media (min-width: 575px){
   /*    NAVIGATION    */
-
   nav {
     width: 100%;
     display: flex;
@@ -169,14 +168,10 @@
     color: white;
   }
 
-  nav .icon {
+  nav .icon{
    display: none;
   }
 
-  header {
-    padding-top: 5%;
-  }
-
   body {
     margin: 0;
     padding: 0;
@@ -184,10 +179,9 @@
   }
 
   header {
-    margin-top: -8vh;
     width: 100%;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    margin-top: -8vh;
+    padding: 5% 0 9% 0;
     background-image: url("../img/snowboarding.jpeg");
     background-position: center;
     background-repeat: no-repeat;
@@ -195,21 +189,6 @@
     background-blend-mode: multiply;
     background-color: rgba(0, 0, 128, 0.7);
     transform: skewY(-4deg);
-  }
-
-  header a {
-    position: absolute;
-    font-size: 30px;
-    color: white;
-    text-align: center;
-  }
-
-
-  header h1 {
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 200;
   }
 
   .header_content h1 {
@@ -232,299 +211,13 @@
     transform: skewY(4deg);
   }
 
-  nav {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    text-align: right;
-    padding-top: 20px;
-  }
-
-  nav a {
-    text-transform: uppercase;
-    padding: 20px;
-    text-decoration: none;
-    color: #F5F5F5;
-    margin: 1vw;
-    font-weight: 600;
-  }
-
-  nav a:hover {
-    transition: .4s;
-    background-color: rgba(176, 178, 186, 0.3);
-    color: white;
-  }
-
-
   /*    MAIN CONTENT    */
 
   #weekactie{
     text-align: center;
   }
-}
 
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  header {
-    margin-top: -8vh;
-    width: 100%;
-    padding-top: 15%;
-    padding-bottom: 15%;
-    background-image: url("../img/snowboarding.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-color: rgba(0, 0, 128, 0.7);
-    transform: skewY(-4deg);
-  }
-
-  header a {
-    position: absolute;
-    font-size: 30px;
-    color: white;
-    text-align: center;
-  }
-
-
-  header h1 {
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 200;
-  }
-
-  .header_content h1 {
-    font-size: 110px;
-    font-weight: 100;
-  }
-
-  .header_content p {
-    font-size: 20px;
-    color: #096bff;
-    line-height: 0em;
-    text-align: center;
-    margin-top: -105px;
-    font-weight: 200;
-    letter-spacing: 43px;
-    margin-left: 50px;
-  }
-
-  .header_content {
-    transform: skewY(4deg);
-  }
-
-  nav {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    text-align: right;
-    padding-top: 20px;
-  }
-
-  nav a {
-    text-transform: uppercase;
-    padding: 20px;
-    text-decoration: none;
-    color: #F5F5F5;
-    margin: 1vw;
-    font-weight: 600;
-  }
-
-  nav a:hover {
-    transition: .4s;
-    background-color: rgba(176, 178, 186, 0.3);
-    color: white;
-  }
-
-
-  /*    MAIN CONTENT    */
-
-  #weekactie{
-    text-align: center;
-  }
-}
-
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  header {
-    margin-top: -8vh;
-    width: 100%;
-    padding-top: 15%;
-    padding-bottom: 15%;
-    background-image: url("../img/snowboarding.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-color: rgba(0, 0, 128, 0.7);
-    transform: skewY(-4deg);
-  }
-
-  header a {
-    position: absolute;
-    font-size: 30px;
-    color: white;
-    text-align: center;
-  }
-
-
-  header h1 {
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 200;
-  }
-
-  .header_content h1 {
-    font-size: 110px;
-    font-weight: 100;
-  }
-
-  .header_content p {
-    font-size: 20px;
-    color: #096bff;
-    line-height: 0em;
-    text-align: center;
-    margin-top: -105px;
-    font-weight: 200;
-    letter-spacing: 43px;
-    margin-left: 50px;
-  }
-
-  .header_content {
-    transform: skewY(4deg);
-  }
-
-  nav {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    text-align: right;
-    padding-top: 20px;
-  }
-
-  nav a {
-    text-transform: uppercase;
-    padding: 20px;
-    text-decoration: none;
-    color: #F5F5F5;
-    margin: 1vw;
-    font-weight: 600;
-  }
-
-  nav a:hover {
-    transition: .4s;
-    background-color: rgba(176, 178, 186, 0.3);
-    color: white;
-  }
-
-
-  /*    MAIN CONTENT    */
-
-  #weekactie{
-    text-align: center;
-  }
-}
-
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width : 1200px) {
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  header {
-    margin-top: -8vh;
-    width: 100%;
-    padding-top: 15%;
-    padding-bottom: 15%;
-    background-image: url("../img/snowboarding.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-color: rgba(0, 0, 128, 0.7);
-    transform: skewY(-4deg);
-  }
-
-  header a {
-    position: absolute;
-    font-size: 30px;
-    color: white;
-    text-align: center;
-  }
-
-
-  header h1 {
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 200;
-  }
-
-  .header_content h1 {
-    font-size: 110px;
-    font-weight: 100;
-  }
-
-  .header_content p {
-    font-size: 20px;
-    color: #096bff;
-    line-height: 0em;
-    text-align: center;
-    margin-top: -105px;
-    font-weight: 200;
-    letter-spacing: 43px;
-    margin-left: 50px;
-  }
-
-  .header_content {
-    transform: skewY(4deg);
-  }
-
-  nav {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    text-align: right;
-    padding-top: 20px;
-  }
-
-  nav a {
-    text-transform: uppercase;
-    padding: 20px;
-    text-decoration: none;
-    color: #F5F5F5;
-    margin: 1vw;
-    font-weight: 600;
-  }
-
-  nav a:hover {
-    transition: .4s;
-    background-color: rgba(176, 178, 186, 0.3);
-    color: white;
-  }
-
-
-  /*    MAIN CONTENT    */
-
-  #weekactie{
+  footer{
     text-align: center;
   }
 }
