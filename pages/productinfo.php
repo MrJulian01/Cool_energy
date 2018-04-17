@@ -34,7 +34,7 @@
       <section id="top_content">
         <article class="left_article">
           <h4>Energy aardbei</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor incididunt utris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>COOL Energy Drink wordt wereldwijd gewaardeerd door topatleten, studenten en prestatiegerichte professionals. COOL Energy houdt je lichaam heerlijk fris voor een nieuwe zonnige dag.</p>
 
           <div>
             <a href="">bekijk meer</a>
@@ -53,7 +53,7 @@
         </article>
         <article class="right_article">
           <h4>Nutrition Facts</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor incididunt utris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>COOL Energy gebruikt alleen natuurlijke producten, waaronder suiker vanuit de suikerbieten en bronwater uit de Alphen, het water heeft een frisse smaak en heeft daarom de beste kwaliteit.</p>
 
           <div>
             <a href="">lees meer</a>
