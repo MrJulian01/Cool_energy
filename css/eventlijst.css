@@ -1,0 +1,1172 @@
+::selection {
+  background-color: #89b8ff;
+  color: white;
+}
+
+/*  Mobile dropdown menu  */
+@media (max-width: 575px){
+  /*    NAVIGATION    */
+  nav {
+    width: 100%;
+    position: relative;
+    top: 0;
+    text-align: right;
+  }
+  
+  nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #F5F5F5;
+    font-weight: 600;
+    transform: skewY(4deg);
+  }
+
+  nav a:hover {
+    transition: .4s;
+    background-color: rgba(176, 178, 186, 0.3);
+    color: white;
+  }
+
+  .navigation{
+    width: 100vw;
+  }
+
+  .navigation a:not(:nth-child(5)){
+    width: 100vw;
+    display: none;
+  }
+
+  .navigation.mobile{
+    width: 100vw;
+    display: block;
+  }
+
+  .navigation.mobile a:not(:nth-child(5)){
+    width: 100vw;
+    display: block;
+    text-align: center;
+    padding: 1.75vh 0;
+  }
+
+  .icon {
+    position: absolute;
+    top: 1.5em;
+    right: 1em;
+  }
+
+  header {
+    padding-top: 10%;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  header {
+    margin-top: -8vh;
+    width: 100%;
+    padding-bottom: 9%;
+    background-image: url("../img/ski3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 128, 0.7);
+    transform: skewY(-4deg);
+  }
+
+  header h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+
+  .header_content h1 {
+    padding-top: 10vw;
+    font-size: 300%;
+    font-weight: 100;
+  }
+
+  .header_content {
+    transform: skewY(4deg);
+  }
+
+  /* = MAIN CONTENT
+  -------------------------------*/
+
+  /* = TOP_CONTENT
+  -------------------------------*/
+
+  #top_content {
+    transform: skewY(-4deg);
+    width: 100%;
+    padding-top: 14vw;
+    padding-bottom: 14vw;
+    text-align: center;
+  }
+
+  #top_content article {
+    transform: skewY(4deg);
+    vertical-align: top;
+    display: inline-block;
+    margin: 40px;
+  }
+
+  #top_content .left_article {
+    text-align: left;
+  }
+
+  #top_content article #display {
+    width: 50vw;
+  }
+
+  #top_content h4{line-height: 0em;}
+  #top_content p {line-height: 18px; font-weight: 300;}
+
+  #top_content div {
+    margin-top: 50px;
+  }
+
+  #top_content a {
+    border: 2px solid #cc1c4a;
+    background-color: #cc1c4a;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+  }
+
+  #top_content a:hover {
+    transition: .7s;
+    background-color: #cc2e57;
+    border: 2px solid #cc2e57;
+  }
+
+
+  /* = MIDDLE_CONTENT
+  -------------------------------*/
+
+  #middle_content {
+    transform: skewY(-4deg);
+    width: 100%;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+
+  #middle_content article {
+    transform: skewY(4deg);
+    vertical-align: top;
+    display: inline-block;
+    margin: 40px;
+  }
+
+  #middle_content article #nutrition {
+    width: 50vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .right_article {
+    text-align: left;
+  }
+
+  #middle_content div {
+    margin-top: 50px;
+  }
+
+  #middle_content a {
+    border: 2px solid #cc1c4a;
+    background-color: #cc1c4a;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #middle_content a:hover {
+    transition: .7s;
+    background-color: #cc2e57;
+    border: 2px solid #cc2e57;
+  }
+
+
+  /* = DOWN_CONTENT
+  -------------------------------*/
+
+  #down_content {
+    width: 100%;
+    text-align: center;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+  }
+
+  #down_content h4{line-height: 0em; color: #1a1a1a}
+  #down_content p {line-height: 18px; font-weight: 200; color: #1a1a1a}
+
+  #down_content div {
+    margin-top: 50px;
+  }
+
+  #down_content article {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 50px;
+  }
+
+  #down_content a {
+    border: 2px solid #cc1c4a;
+    background-color: #cc1c4a;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+  }
+
+  #down_content a:hover {
+    transition: .7s;
+    background-color: #cc2e57;
+    border: 2px solid #cc2e57;
+  }
+
+  #down_content article #icon {
+    color: #cc1c4a;
+    margin-right: 5px;
+  }
+
+  #down_content article h4 {
+    color: #cc2e57;
+  }
+
+  #down_content article #icon2 {
+    background-color: #cc2e57;
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 12px;
+  }
+
+
+  /* = FOOTER
+  -------------------------------*/
+
+  footer{
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 575px){
+  /*    NAVIGATION    */
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transform: skewY(4deg);
+  }
+
+  nav a {
+    text-transform: uppercase;
+    padding: 20px;
+    text-decoration: none;
+    color: #F5F5F5;
+    margin: 1vw;
+    font-weight: 600;
+  }
+
+  nav a:hover {
+    transition: .4s;
+    background-color: rgba(176, 178, 186, 0.3);
+    color: white;
+  }
+
+  nav .icon {
+   display: none;
+  }
+
+  header {
+    padding-top: 5%;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  header {
+    margin-top: -8vh;
+    width: 100%;
+    padding-bottom: 9%;
+    background-image: url("../img/ski3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 128, 0.7);
+    transform: skewY(-4deg);
+  }
+
+  header h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+
+  .header_content h1 {
+    font-size: 300%;
+    font-weight: 100;
+  }
+
+  .header_content {
+    transform: skewY(4deg);
+  }
+
+  /* = MAIN CONTENT
+  -------------------------------*/
+
+  /* = TOP_CONTENT
+  -------------------------------*/
+
+  #top_content {
+    transform: skewY(-4deg);
+    width: 100%;
+    padding-top: 14vw;
+    padding-bottom: 14vw;
+    text-align: center;
+  }
+
+  #top_content article {
+    transform: skewY(4deg);
+    vertical-align: top;
+    display: inline-block;
+    margin: 40px;
+  }
+
+  #top_content .left_article {
+    text-align: left;
+  }
+
+  #top_content article #display {
+    width: 220px;
+  }
+
+  #top_content h4{line-height: 0em;}
+  #top_content p {line-height: 18px; font-weight: 300;}
+
+  #top_content div {
+    margin-top: 50px;
+  }
+
+  #top_content a {
+    border: 2px solid #cc1c4a;
+    background-color: #cc1c4a;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+  }
+
+  #top_content a:hover {
+    transition: .7s;
+    background-color: #cc2e57;
+    border: 2px solid #cc2e57;
+  }
+
+
+  /* = MIDDLE_CONTENT
+  -------------------------------*/
+
+  #middle_content {
+    transform: skewY(-4deg);
+    width: 100%;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+
+  #middle_content article {
+    transform: skewY(4deg);
+    vertical-align: top;
+    display: inline-block;
+    margin: 40px;
+  }
+
+  #middle_content article #nutrition {
+    width: 320px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .right_article {
+    text-align: left;
+  }
+
+  #middle_content div {
+    margin-top: 50px;
+  }
+
+  #middle_content a {
+    border: 2px solid #cc1c4a;
+    background-color: #cc1c4a;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #middle_content a:hover {
+    transition: .7s;
+    background-color: #cc2e57;
+    border: 2px solid #cc2e57;
+  }
+
+
+  /* = DOWN_CONTENT
+  -------------------------------*/
+
+  #down_content {
+    width: 100%;
+    text-align: center;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+  }
+
+  #down_content h4{line-height: 0em; color: #1a1a1a}
+  #down_content p {line-height: 18px; font-weight: 200; color: #1a1a1a}
+
+  #down_content div {
+    margin-top: 50px;
+  }
+
+  #down_content article {
+    color: white;
+    width: 390px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 50px;
+  }
+
+  #down_content a {
+    border: 2px solid #cc1c4a;
+    background-color: #cc1c4a;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+  }
+
+  #down_content a:hover {
+    transition: .7s;
+    background-color: #cc2e57;
+    border: 2px solid #cc2e57;
+  }
+
+  #down_content article #icon {
+    color: #cc1c4a;
+    margin-right: 5px;
+  }
+
+  #down_content article h4 {
+    color: #cc2e57;
+  }
+
+  #down_content article #icon2 {
+    background-color: #cc2e57;
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 12px;
+  }
+
+
+  /* = FOOTER
+  -------------------------------*/
+
+  footer{
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  header {
+    margin-top: -8vh;
+    width: 100%;
+    padding-bottom: 9%;
+    background-image: url("../img/ski3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 128, 0.7);
+    transform: skewY(-4deg);
+  }
+
+  header h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+
+  .header_content h1 {
+    font-size: 300%;
+    font-weight: 100;
+  }
+
+  .header_content {
+    transform: skewY(4deg);
+  }
+
+  /* = MAIN CONTENT
+  -------------------------------*/
+
+  /* = TOP_CONTENT
+  -------------------------------*/
+
+  #top_content {
+    transform: skewY(-4deg);
+    width: 100%;
+    padding-top: 14vw;
+    padding-bottom: 14vw;
+    text-align: center;
+  }
+
+  #top_content article {
+    transform: skewY(4deg);
+    width: 390px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 40px;
+  }
+
+  #top_content .left_article {
+    text-align: left;
+  }
+
+  #top_content article #display {
+    width: 220px;
+  }
+
+  #top_content h4{line-height: 0em;}
+  #top_content p {line-height: 18px; font-weight: 300;}
+
+  #top_content div {
+    margin-top: 50px;
+  }
+
+  #top_content a {
+    border: 2px solid #cc1c4a;
+    background-color: #cc1c4a;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+  }
+
+  #top_content a:hover {
+    transition: .7s;
+    background-color: #cc2e57;
+    border: 2px solid #cc2e57;
+  }
+
+
+  /* = MIDDLE_CONTENT
+  -------------------------------*/
+
+  #middle_content {
+    transform: skewY(-4deg);
+    width: 100%;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+
+  #middle_content article {
+    transform: skewY(4deg);
+    width: 390px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 40px;
+  }
+
+  #middle_content article #nutrition {
+    width: 320px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .right_article {
+    text-align: left;
+  }
+
+  #middle_content div {
+    margin-top: 50px;
+  }
+
+  #middle_content a {
+    border: 2px solid #cc1c4a;
+    background-color: #cc1c4a;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #middle_content a:hover {
+    transition: .7s;
+    background-color: #cc2e57;
+    border: 2px solid #cc2e57;
+  }
+
+
+  /* = DOWN_CONTENT
+  -------------------------------*/
+
+  #down_content {
+    width: 100%;
+    text-align: center;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+  }
+
+  #down_content h4{line-height: 0em; color: #1a1a1a}
+  #down_content p {line-height: 18px; font-weight: 200; color: #1a1a1a}
+
+  #down_content div {
+    margin-top: 50px;
+  }
+
+  #down_content article {
+    color: white;
+    width: 390px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 50px;
+  }
+
+  #down_content a {
+    border: 2px solid #cc1c4a;
+    background-color: #cc1c4a;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+  }
+
+  #down_content a:hover {
+    transition: .7s;
+    background-color: #cc2e57;
+    border: 2px solid #cc2e57;
+  }
+
+  #down_content article #icon {
+    color: #cc1c4a;
+    margin-right: 5px;
+  }
+
+  #down_content article h4 {
+    color: #cc2e57;
+  }
+
+  #down_content article #icon2 {
+    background-color: #cc2e57;
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 12px;
+  }
+
+
+  /* = FOOTER
+  -------------------------------*/
+
+  footer{
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+  }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  header {
+    margin-top: -8vh;
+    width: 100%;
+    padding-bottom: 9%;
+    background-image: url("../img/ski3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 128, 0.7);
+    transform: skewY(-4deg);
+  }
+
+  header h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+
+  .header_content h1 {
+    font-size: 500%;
+    font-weight: 100;
+  }
+
+  .header_content {
+    transform: skewY(4deg);
+  }
+
+
+  /* = MAIN CONTENT
+  -------------------------------*/
+
+  /* = TOP_CONTENT
+  -------------------------------*/
+
+  #top_content {
+    transform: skewY(-4deg);
+    width: 100%;
+    padding-top: 14vw;
+    padding-bottom: 14vw;
+    text-align: center;
+  }
+
+  #top_content article {
+    transform: skewY(4deg);
+    width: 390px;
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  #top_content .left_article {
+    text-align: left;
+  }
+
+  #top_content article #display {
+    width: 220px;
+  }
+
+  #top_content h4{line-height: 0em;}
+  #top_content p {line-height: 18px; font-weight: 300;}
+
+  #top_content div {
+    margin-top: 50px;
+  }
+
+  #top_content a {
+    border: 2px solid #cc1c4a;
+    background-color: #cc1c4a;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+  }
+
+  #top_content a:hover {
+    transition: .7s;
+    background-color: #cc2e57;
+    border: 2px solid #cc2e57;
+  }
+
+
+  /* = MIDDLE_CONTENT
+  -------------------------------*/
+
+  #middle_content {
+    transform: skewY(-4deg);
+    width: 100%;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+
+  #middle_content article {
+    transform: skewY(4deg);
+    width: 390px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 40px;
+  }
+
+  #middle_content article #nutrition {
+    width: 320px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .right_article {
+    text-align: left;
+  }
+
+  #middle_content div {
+    margin-top: 50px;
+  }
+
+  #middle_content a {
+    border: 2px solid #cc1c4a;
+    background-color: #cc1c4a;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #middle_content a:hover {
+    transition: .7s;
+    background-color: #cc2e57;
+    border: 2px solid #cc2e57;
+  }
+
+
+  /* = DOWN_CONTENT
+  -------------------------------*/
+
+  #down_content {
+    width: 100%;
+    text-align: center;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+  }
+
+  #down_content h4{line-height: 0em; color: #1a1a1a}
+  #down_content p {line-height: 18px; font-weight: 200; color: #1a1a1a}
+
+  #down_content div {
+    margin-top: 50px;
+  }
+
+  #down_content article {
+    color: white;
+    width: 390px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 50px;
+  }
+
+  #down_content a {
+    border: 2px solid #cc1c4a;
+    background-color: #cc1c4a;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+  }
+
+  #down_content a:hover {
+    transition: .7s;
+    background-color: #cc2e57;
+    border: 2px solid #cc2e57;
+  }
+
+  #down_content article #icon {
+    color: #cc1c4a;
+    margin-right: 5px;
+  }
+
+  #down_content article h4 {
+    color: #cc2e57;
+  }
+
+  #down_content article #icon2 {
+    background-color: #cc2e57;
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 12px;
+  }
+
+
+  /* = FOOTER
+  -------------------------------*/
+
+  footer{
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+  }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width : 1200px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  header {
+    margin-top: -8vh;
+    width: 100%;
+    padding-bottom: 9%;
+    background-image: url("../img/ski3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 128, 0.7);
+    transform: skewY(-4deg);
+  }
+
+  header h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+
+  .header_content h1 {
+    font-size: 500%;
+    font-weight: 100;
+  }
+
+  .header_content {
+    transform: skewY(4deg);
+  }
+
+
+  /* = MAIN CONTENT
+  -------------------------------*/
+
+  /* = TOP_CONTENT
+  -------------------------------*/
+
+  #top_content {
+    width: 100%;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    text-align: center;
+    transform: skewY(-4deg);
+  }
+
+  #top_content article {
+    transform: skewY(4deg);
+    width: 400px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 40px;
+  }
+
+  #top_content .left_article {
+    text-align: left;
+  }
+
+  #top_content article #display {
+    width: 220px;
+  }
+
+  #top_content h4{line-height: 0em;}
+  #top_content p {line-height: 18px; font-weight: 300;}
+
+  #top_content div {
+    margin-top: 50px;
+  }
+
+  #top_content a {
+    border: 2px solid #cc1c4a;
+    background-color: #cc1c4a;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+  }
+
+  #top_content a:hover {
+    transition: .7s;
+    background-color: #cc2e57;
+    border: 2px solid #cc2e57;
+  }
+
+
+  /* = MIDDLE_CONTENT
+  -------------------------------*/
+
+  #middle_content {
+    transform: skewY(-4deg);
+    width: 100%;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+
+  #middle_content article {
+    transform: skewY(4deg);
+    width: 400px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 40px;
+  }
+
+  #middle_content article #nutrition {
+    width: 320px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .right_article {
+    text-align: left;
+  }
+
+  #middle_content div {
+    margin-top: 50px;
+  }
+
+  #middle_content a {
+    border: 2px solid #cc1c4a;
+    background-color: #cc1c4a;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #middle_content a:hover {
+    transition: .7s;
+    background-color: #cc2e57;
+    border: 2px solid #cc2e57;
+  }
+
+
+  /* = DOWN_CONTENT
+  -------------------------------*/
+
+  #down_content {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+  }
+
+  #down_content h4{line-height: 0em; color: #1a1a1a}
+  #down_content p {line-height: 18px; font-weight: 200; color: #1a1a1a}
+
+  #down_content div {
+    margin-top: 50px;
+  }
+
+  #down_content article {
+    color: white;
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 50px;
+  }
+
+  #down_content a {
+    border: 2px solid #cc1c4a;
+    background-color: #cc1c4a;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+  }
+
+  #down_content a:hover {
+    transition: .7s;
+    background-color: #cc2e57;
+    border: 2px solid #cc2e57;
+  }
+
+  #down_content article #icon {
+    color: #cc1c4a;
+    margin-right: 5px;
+  }
+
+  #down_content article h4 {
+    color: #cc2e57;
+  }
+
+  #down_content article #icon2 {
+    background-color: #cc2e57;
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 12px;
+  }
+
+
+  /* = FOOTER
+  -------------------------------*/
+
+  footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+  }
+}
