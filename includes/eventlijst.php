@@ -3,7 +3,7 @@
   include "conn.php";
 
   // makes the query
-  $sql =  "SELECT actienaam, afbeelding, omschrijving, DATE_FORMAT(einddatum, '%d-%m-%y') FROM actie;";
+  $sql =  "SELECT * FROM event;";
   $result = mysqli_query($conn, $sql);
 
   // checks if the query arrives
@@ -13,10 +13,10 @@
 
   // display the data
   while($row = mysqli_fetch_row($result)){
-    echo "<h3>".$row[0]."</h3>";
-    echo "<img src='../img/actie/".$row[1]."' alt='empty'>";
-    echo "<p>".$row[2]."</p>";
-    echo "Deze actie geld tot: ".$row[3];
+    echo "<img src=../img/event locatie/'".$row[4].".jpg'>";
+    echo "datum: ".$row[2];
+    echo ""; // knop naar artiest details
+    echo "<br/>";  // knop naar eventdetails
   }
 
   // empty the var
