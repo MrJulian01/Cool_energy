@@ -3,7 +3,7 @@
   include "conn.php";
 
   // makes the query
-  $sql =  "SELECT * FROM event;";
+  $sql =  "SELECT DATE_FORMAT(datum, '%d-%m-%y'), locatieid FROM event;";
   $result = mysqli_query($conn, $sql);
 
   // checks if the query arrives
@@ -13,10 +13,11 @@
 
   // display the data
   while($row = mysqli_fetch_row($result)){
-    echo "<img src=../img/event locatie/'".$row[4].".jpg'>";
-    echo "datum: ".$row[2];
-    echo ""; // knop naar artiest details
-    echo "<br/>";  // knop naar eventdetails
+    echo "<img src='../img/event_locaties/".$row[1].".jpg'><br/>";
+    echo "datum: ".$row[0]."<br/>";
+    echo "<a href='artiestdetails.php'><button id='artiestdetails'>Artiestdetails</button></a>"; // knop naar artiest details
+    echo "<a href='eventdetails.php'><button id='eventdetails'>Eventdetails</button></a>"; // knop naar eventdetails
+    echo "<br/>";
   }
 
   // empty the var

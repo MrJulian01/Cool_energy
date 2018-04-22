@@ -27,12 +27,9 @@
       </div>
     </header>
 
-
-    <!-- ________________________________________ -->
-
     <main id="main_content">
 
-      <!-- MAIN CONTENT OF THE WEBSITE HERE -->
+      
 
     </main>
 

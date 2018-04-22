@@ -12,7 +12,7 @@
     top: 0;
     text-align: right;
   }
-  
+
   nav a {
     text-transform: uppercase;
     text-decoration: none;
@@ -1169,4 +1169,9 @@
     text-align: center;
     margin-top: 1em;
   }
+}
+
+main{
+  text-align: center;
+  padding-top: 2.5vh;
 }

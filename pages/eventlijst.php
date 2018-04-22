@@ -32,10 +32,9 @@
 
     <main id="main_content">
 
-      <!-- MAIN CONTENT OF THE WEBSITE HERE -->
+      <?php include '../includes/eventlijst.php'?>
 
     </main>
-
 
     <!-- ___________________FOOTER_____________________ -->
 
