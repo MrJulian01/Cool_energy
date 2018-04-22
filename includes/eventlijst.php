@@ -3,7 +3,7 @@
   include "conn.php";
 
   // makes the query
-  $sql =  "SELECT DATE_FORMAT(datum, '%d-%m-%y'), locatieid FROM event;";
+  $sql =  "SELECT DATE_FORMAT(datum, '%d-%m-%y'), locatieid, artiestid, eventid FROM event;";
   $result = mysqli_query($conn, $sql);
 
   // checks if the query arrives
