@@ -15,9 +15,9 @@
   while($row = mysqli_fetch_row($result)){
     echo "<img src='../img/event_locaties/".$row[1].".jpg'><br/>";
     echo "datum: ".$row[0]."<br/>";
-    echo "<a href='artiestdetails.php'><button id='artiestdetails'>Artiestdetails</button></a>"; // knop naar artiest details
-    echo "<a href='eventdetails.php'><button id='eventdetails'>Eventdetails</button></a>"; // knop naar eventdetails
-    echo "<br/>";
+    echo "<a href='artiestdetails.php?id=".$row[2]."'><button id='artiestdetails'>Artiestdetails</button></a>"; // knop naar artiest details
+    echo "<a href='eventdetails.php?id=".$row[3]."'><button id='eventdetails'>Eventdetails</button></a>"; // knop naar eventdetails
+    echo "<br/><br/>";
   }
 
   // empty the var

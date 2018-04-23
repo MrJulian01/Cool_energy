@@ -29,7 +29,7 @@
 
     <main id="main_content">
 
-
+      <?php include "../includes/eventdetails.php" ?>
 
     </main>
 

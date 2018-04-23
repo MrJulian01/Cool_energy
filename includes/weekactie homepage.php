@@ -19,7 +19,7 @@
   // display the data
   while($row = mysqli_fetch_row($result)){
     echo "<h3>".$row[0]."</h3>";
-    echo "<img src='img/".$row[1]."'>";
+    echo "<img src='img/actie/".$row[1]."'>";
     echo "<p>".$row[2]."</p>";
     echo "Deze actie geld tot: ".$row[3];
   }
