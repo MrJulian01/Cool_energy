@@ -85,6 +85,22 @@
     font-weight: 200;
   }
 
+  #main_content button {
+    color: white;
+    padding: 12px;
+    border: none;
+    margin: 20px;
+    border-radius: 2px;
+    background-color: #6060ff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+  }
+
+  #main_content button:hover {
+    transition: .4s;
+    background-color: #4949c1;
+  }
+
   .header_content h1 {
     padding-top: 10vw;
     font-size: 300%;
@@ -331,6 +347,22 @@
     font-weight: 200;
   }
 
+  #main_content button {
+    color: white;
+    padding: 12px;
+    border: none;
+    margin: 20px;
+    border-radius: 2px;
+    background-color: #6060ff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+  }
+
+  #main_content button:hover {
+    transition: .4s;
+    background-color: #4949c1;
+  }
+
   .header_content h1 {
     font-size: 300%;
     font-weight: 100;
@@ -544,6 +576,22 @@
     color: white;
     text-transform: uppercase;
     font-weight: 200;
+  }
+
+  #main_content button {
+    color: white;
+    padding: 12px;
+    border: none;
+    margin: 20px;
+    border-radius: 2px;
+    background-color: #6060ff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+  }
+
+  #main_content button:hover {
+    transition: .4s;
+    background-color: #4949c1;
   }
 
   .header_content h1 {
@@ -764,6 +812,22 @@
     font-weight: 200;
   }
 
+  #main_content button {
+    color: white;
+    padding: 12px;
+    border: none;
+    margin: 20px;
+    border-radius: 2px;
+    background-color: #6060ff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+  }
+
+  #main_content button:hover {
+    transition: .4s;
+    background-color: #4949c1;
+  }
+
   .header_content h1 {
     font-size: 500%;
     font-weight: 100;
@@ -982,6 +1046,22 @@
     font-weight: 200;
   }
 
+  #main_content button {
+    color: white;
+    padding: 12px;
+    border: none;
+    margin: 20px;
+    border-radius: 2px;
+    background-color: #6060ff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+  }
+
+  #main_content button:hover {
+    transition: .4s;
+    background-color: #4949c1;
+  }
+
   .header_content h1 {
     font-size: 500%;
     font-weight: 100;
@@ -1171,7 +1251,8 @@
   }
 }
 
-main{
+main {
   text-align: center;
-  padding-top: 2.5vh;
+  padding-top: 14vw;
+  padding-bottom: 14vw;
 }
