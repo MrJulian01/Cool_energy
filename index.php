@@ -28,7 +28,7 @@
         <a href="pages/eventlijst.php">Eventlijst</a>
         <a href="pages/acties.php">Alle acties</a>
         <a href="javascript:void(0);" class="icon" onclick="opennav()">&#9776;</a>
-        <a href="pages/inloggen.html">Login</a>
+        <a href="pages/inloggen.php">Login</a>
       </nav>
 
 
