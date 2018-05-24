@@ -4,7 +4,7 @@
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 //Connects database to php
-require("dbconnect.php");
+require("../includes/conn.php");
 
 function test_input($data) {
   $data = trim($data);
@@ -16,13 +16,13 @@ function test_input($data) {
 $usernameInput = test_input($_POST['username']);
 $passwordInput = test_input($_POST['password']);
 
-$usernameInput = mysqli_real_escape_string($connection, $usernameInput);
-$passwordInput = mysqli_real_escape_string($connection, $passwordInput);
+$usernameInput = mysqli_real_escape_string($conn, $usernameInput);
+$passwordInput = mysqli_real_escape_string($conn, $passwordInput);
 
 
     // 2. Perform database query
     $sql= "SELECT * FROM user WHERE username = '".$usernameInput."' AND password = '".$passwordInput."'";
-    $result = mysqli_query($connection, $sql);
+    $result = mysqli_query($conn, $sql);
     // Test if there was a query error
     if(!$result){
       die("Database query failed.");
@@ -37,7 +37,7 @@ $passwordInput = mysqli_real_escape_string($connection, $passwordInput);
       $user = mysqli_fetch_row($result);
       $_SESSION['ingelogd'] = "ja";
       $_SESSION['username'] = $user[0];
-      header("Location: beveiligd.php");
+      header("Location: ../pages/adminpanel.php");
         }
       else{
         header("Location: inloggen.php");

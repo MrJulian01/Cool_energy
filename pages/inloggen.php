@@ -10,7 +10,7 @@
       <meta name="keywords" content="energy, cool, website, ice, cold">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-      <link rel="stylesheet" href="../css/info.css">
+      <link rel="stylesheet" href="../css/adminpanel.css">
       <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
       <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
       <title>Cool energy</title>
@@ -34,11 +34,11 @@
         <section id="top_content">
           <article class="left_article">
             <h4>Login</h4>
-            <form method="POST" action="login.php">
+            <form method="POST" action="../includes/login.php">
 
               Username <input type="text" name="username"/><br>
               Password <input type="password" name="password"/><br>
-              <input type="submit" name="submit" value="Login"/><br>
+              <input class="button" type="submit" name="submit" value="Login"/><br>
 
               </form>
           </article>
