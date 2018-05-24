@@ -21,7 +21,7 @@
     echo "<h3>".$row[0]."</h3>";
     echo "<img src='img/actie/".$row[1]."'>";
     echo "<p>".$row[2]."</p>";
-    echo "Deze actie geld tot: ".$row[3];
+    echo "Deze actie geldt tot: ".$row[3];
   }
 
   // empty the var

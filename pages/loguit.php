@@ -2,5 +2,5 @@
 session_start();
 session_destroy();
 
-header("Location: inloggen.html");
+header("Location: inloggen.php");
  ?>
