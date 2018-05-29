@@ -7,9 +7,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 require("../includes/conn.php");
 
 function test_input($data) {
-  $data = trim($data);
-  $data = stripslashes($data);
-  $data = htmlspecialchars($data);
+  //$data = trim($data);
+  //$data = stripslashes($data);
+  //$data = htmlspecialchars($data);
   return $data;
 }
 
@@ -40,12 +40,12 @@ $passwordInput = mysqli_real_escape_string($conn, $passwordInput);
       header("Location: ../pages/adminpanel.php");
         }
       else{
-        header("Location: inloggen.php");
+        header("Location: ../pages/inloggen.php");
       }
     }
 
   //Username and/or password wrong
     else{
-      header("Location: inloggen.php");
+      header("Location: ../pages/inloggen.php");
     }
 ?>

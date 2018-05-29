@@ -43,7 +43,7 @@ else{
      <main id="main_content">
        <section id="top_content">
          <article class="left_article">
-           <h4>User toevoegen</h4>
+           <h4>Actie toevoegen</h4>
            <form method="POST" action="../includes/add_acties.php">
              Actieid <input type="text" name="actieid"/><br>
              Actie naam <input type="text" name="actienaam"/><br>
@@ -59,18 +59,15 @@ else{
 
        <section id="middle_content">
          <article class="right_article">
-           <h4>Update Accounts</h4>
-           <form method="POST" action="../includes/update.php">
+           <h4>Update Actie</h4>
+           <form method="POST" action="../includes/update_actie.php">
+             Actieid <input type="text" name="actieid"/><br>
              Actie naam <input type="text" name="actienaam"/><br>
              Begin datum en tijd <input type="text" name="begindatum"/><br>
              Eind datum en tijd <input type="text" name="einddatum"/><br>
              omschrijving <input type="text" name="omschrijving"/><br>
              Artiestid <input type="text" name="artiestid"/><br>
-             Actie naam <input type="text" name="actienaam"/><br>
-             Begin datum <input type="text" name="begindatum"/><br>
-             Eind datum level <input type="text" name="einddatum"/><br>
-             omschrijving <input type="text" name="omschrijving"/><br>
-             Artiestid <input type="text" name="artiestid"/><br>
+             Oude actieid <input type="text" name="oldactieid"/><br>
              <input class="button" type="submit" name="submit" value="update"/><br>
 
              </form>
@@ -79,11 +76,10 @@ else{
 
        <section id="middle_content">
          <article class="right_article">
-           <h4>Delete Account</h4>
-           <form method="POST" action="../includes/delete.php">
-             Username <input type="text" name="username"/><br>
-             Password <input type="text" name="password"/><br>
-             Permission level <input type="text" name="permission"/><br>
+           <h4>Delete Actie</h4>
+           <form method="POST" action="../includes/delete_actie.php">
+             Actie naam <input type="text" name="actienaam"/><br>
+             Actie ID <input type="text" name="actieid"/><br>
              <input class="button" type="submit" name="submit" value="delete"/><br>
 
              </form>
