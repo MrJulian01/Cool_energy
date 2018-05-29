@@ -21,7 +21,7 @@ $actienaamInput = mysqli_real_escape_string($conn, $actienaamInput);;
 
 
     // 2. Perform database query
-    $sql= "DELETE FROM actie WHERE actieid = '$actieidInput'AND actienaam = '$actienaamInput'";
+    $sql= "DELETE FROM actie WHERE actieid = '$actieidInput' AND actienaam = '$actienaamInput'";
     if(mysqli_query($conn, $sql)){
     echo "Actie gedelete";
     }

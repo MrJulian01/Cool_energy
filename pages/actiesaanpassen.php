@@ -1,13 +1,13 @@
 <?php
  include '../includes/conn.php';
 session_start();
+//still logged in
 if($_SESSION['ingelogd'] == "ja"){
-  //still logged in
   //echo "<a href='loguit.php'><button>Loguit</button></a>";
 }
 
 else{
-  header("Location: inloggen.php");
+  header("Location: ../pages/inloggen.php");
 }
  ?>
 
@@ -51,6 +51,7 @@ else{
              Eind datum en tijd <input type="text" name="einddatum"/><br>
              Omschrijving <input type="text" name="omschrijving"/><br>
              Artiestid <input type="text" name="artiestid"/><br>
+             Foto <input type="text" name="picture"/><br>
              <input class="button" type="submit" name="submit" value="add"/><br>
 
              </form>

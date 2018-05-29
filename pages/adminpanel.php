@@ -1,13 +1,13 @@
 <?php
  include '../includes/conn.php';
 session_start();
+//still logged in
 if($_SESSION['ingelogd'] == "ja"){
-  //still logged in
   //echo "<a href='loguit.php'><button>Loguit</button></a>";
 }
 
 else{
-  header("Location: inloggen.php");
+  header("Location: ../pages/inloggen.php");
 }
  ?>
 

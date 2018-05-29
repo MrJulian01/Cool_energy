@@ -19,6 +19,7 @@ $begindatumInput = test_input($_POST['begindatum']);
 $einddatumInput = test_input($_POST['einddatum']);
 $omschrijvingInput = test_input($_POST['omschrijving']);
 $artiestidInput = test_input($_POST['artiestid']);
+$pictureInput = test_input($_POST['picture']);
 
 $actieidInput = mysqli_real_escape_string($conn, $actieidInput);
 $actienaamInput = mysqli_real_escape_string($conn, $actienaamInput);
@@ -26,6 +27,7 @@ $begindatumInput = mysqli_real_escape_string($conn, $begindatumInput);
 $einddatumInput = mysqli_real_escape_string($conn, $einddatumInput);
 $omschrijvingInput = mysqli_real_escape_string($conn, $omschrijvingInput);
 $artiestidInput = mysqli_real_escape_string($conn, $artiestidInput);
+$pictureInput = mysqli_real_escape_string($conn, $pictureInput);
 
 $begindatumInput = strtotime($_POST["begindatum"]);
 $begindatumInput = date('Y-m-d H:i:s', $begindatumInput);
@@ -34,7 +36,7 @@ $einddatumInput = strtotime($_POST["einddatum"]);
 $einddatumInput = date('Y-m-d H:i:s', $einddatumInput);
 
     // 2. Perform database query
-    $sql= "INSERT INTO actie (actieid, actienaam, begindatum, einddatum, omschrijving, artiestid) VALUES ('$actieidInput', '$actienaamInput', '$begindatumInput', '$einddatumInput', '$omschrijvingInput', '$artiestidInput')";
+    $sql= "INSERT INTO actie (actieid, actienaam, begindatum, einddatum, omschrijving, artiestid, afbeelding) VALUES ('$actieidInput', '$actienaamInput', '$begindatumInput', '$einddatumInput', '$omschrijvingInput', '$artiestidInput', '$pictureInput')";
     if(mysqli_query($conn, $sql)){
     echo "Actie toegevoegd";
     }
