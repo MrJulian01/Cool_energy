@@ -68,6 +68,7 @@ else{
              Eind datum en tijd <input type="text" name="einddatum"/><br>
              omschrijving <input type="text" name="omschrijving"/><br>
              Artiestid <input type="text" name="artiestid"/><br>
+             Foto <input type="text" name="picture"/><br>
              Oude actieid <input type="text" name="oldactieid"/><br>
              <input class="button" type="submit" name="submit" value="update"/><br>
 

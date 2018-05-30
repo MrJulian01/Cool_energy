@@ -19,6 +19,7 @@ $begindatumInput = test_input($_POST['begindatum']);
 $einddatumInput = test_input($_POST['einddatum']);
 $omschrijvingInput = test_input($_POST['omschrijving']);
 $artiestidInput = test_input($_POST['artiestid']);
+$pictureInput = test_input($_POST['picture']);
 $oldactieidInput = test_input($_POST['oldactieid']);
 
 $actieidInput = mysqli_real_escape_string($conn, $actieidInput);
@@ -27,6 +28,7 @@ $begindatumInput = mysqli_real_escape_string($conn, $begindatumInput);
 $einddatumInput = mysqli_real_escape_string($conn, $einddatumInput);
 $omschrijvingInput = mysqli_real_escape_string($conn, $omschrijvingInput);
 $artiestidInput = mysqli_real_escape_string($conn, $artiestidInput);
+$pictureInput = mysqli_real_escape_string($conn, $pictureInput);
 $oldactieidInput = mysqli_real_escape_string($conn, $oldactieidInput);
 
 $begindatumInput = strtotime($_POST["begindatum"]);
@@ -37,7 +39,7 @@ $einddatumInput = date('Y-m-d H:i:s', $einddatumInput);
 
 
     // 2. Perform database query
-    $sql= "UPDATE actie SET actieid = '$actieidInput', actienaam = '$actienaamInput', begindatum = '$begindatumInput', einddatum = '$einddatumInput', omschrijving = '$omschrijvingInput' WHERE actieid = '$oldactieidInput'";
+    $sql= "UPDATE actie SET actieid = '$actieidInput', actienaam = '$actienaamInput', begindatum = '$begindatumInput', einddatum = '$einddatumInput', omschrijving = '$omschrijvingInput', afbeelding = '$pictureInput' WHERE actieid = '$oldactieidInput'";
     if(mysqli_query($conn, $sql)){
     echo "Actie geupdate";
     }
