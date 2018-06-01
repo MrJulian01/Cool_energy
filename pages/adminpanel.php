@@ -43,44 +43,9 @@ else{
      <main id="main_content">
        <section id="top_content">
          <article class="left_article">
-           <h4>User toevoegen</h4>
-           <form method="POST" action="../includes/add.php">
-             Username Toevoegen <input type="text" name="username"/><br>
-             Bijbehorende Password <input type="text" name="password"/><br>
-             Permission level <input type="text" name="permission"/><br>
-             <input class="button" type="submit" name="submit" value="add"/><br>
-
-             </form>
          </article>
        </section>
 
-       <section id="middle_content">
-         <article class="right_article">
-           <h4>Update Accounts</h4>
-           <form method="POST" action="../includes/update.php">
-             Oude Username <input type="text" name="oldusername"/><br>
-             Nieuwe Username <input type="text" name="username"/><br>
-             Oude Password <input type="text" name="oldpassword"/><br>
-             Nieuwe Password <input type="text" name="password"/><br>
-             Permission level updaten <input type="text" name="permission"/><br>
-             <input class="button" type="submit" name="submit" value="update"/><br>
-
-             </form>
-         </article>
-       </section>
-
-       <section id="middle_content">
-         <article class="right_article">
-           <h4>Delete Account</h4>
-           <form method="POST" action="../includes/delete.php">
-             Username <input type="text" name="username"/><br>
-             Password <input type="text" name="password"/><br>
-             Permission level <input type="text" name="permission"/><br>
-             <input class="button" type="submit" name="submit" value="delete"/><br>
-
-             </form>
-         </article>
-       </section>
 
        <section id="down_content">
          <article>

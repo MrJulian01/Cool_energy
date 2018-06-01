@@ -33,7 +33,7 @@ else{
        <?php include "../includes/nav1.php"?>
 
        <div class="header_content">
-         <h1>Acties</h1>
+         <h1>Users</h1>
        </div>
      </header>
 
@@ -43,15 +43,11 @@ else{
      <main id="main_content">
        <section id="top_content">
          <article class="left_article">
-           <h4>Actie toevoegen</h4>
-           <form method="POST" action="../includes/add_acties.php">
-             Actieid <input type="text" name="actieid"/><br>
-             Actie naam <input type="text" name="actienaam"/><br>
-             Begin datum en tijd <input type="text" name="begindatum"/><br>
-             Eind datum en tijd <input type="text" name="einddatum"/><br>
-             Omschrijving <input type="text" name="omschrijving"/><br>
-             Artiestid <input type="text" name="artiestid"/><br>
-             Foto <input type="text" name="picture"/><br>
+           <h4>User toevoegen</h4>
+           <form method="POST" action="../includes/add.php">
+             Username Toevoegen <input type="text" name="username"/><br>
+             Bijbehorende Password <input type="text" name="password"/><br>
+             Permission level <input type="text" name="permission"/><br>
              <input class="button" type="submit" name="submit" value="add"/><br>
 
              </form>
@@ -60,16 +56,13 @@ else{
 
        <section id="middle_content">
          <article class="right_article">
-           <h4>Update Actie</h4>
-           <form method="POST" action="../includes/update_actie.php">
-             Actieid <input type="text" name="actieid"/><br>
-             Actie naam <input type="text" name="actienaam"/><br>
-             Begin datum en tijd <input type="text" name="begindatum"/><br>
-             Eind datum en tijd <input type="text" name="einddatum"/><br>
-             omschrijving <input type="text" name="omschrijving"/><br>
-             Artiestid <input type="text" name="artiestid"/><br>
-             Foto <input type="text" name="picture"/><br>
-             Oude actieid <input type="text" name="oldactieid"/><br>
+           <h4>Update Accounts</h4>
+           <form method="POST" action="../includes/update.php">
+             Oude Username <input type="text" name="oldusername"/><br>
+             Nieuwe Username <input type="text" name="username"/><br>
+             Oude Password <input type="text" name="oldpassword"/><br>
+             Nieuwe Password <input type="text" name="password"/><br>
+             Permission level updaten <input type="text" name="permission"/><br>
              <input class="button" type="submit" name="submit" value="update"/><br>
 
              </form>
@@ -78,10 +71,11 @@ else{
 
        <section id="middle_content">
          <article class="right_article">
-           <h4>Delete Actie</h4>
-           <form method="POST" action="../includes/delete_actie.php">
-             Actie naam <input type="text" name="actienaam"/><br>
-             Actie ID <input type="text" name="actieid"/><br>
+           <h4>Delete Account</h4>
+           <form method="POST" action="../includes/delete.php">
+             Username <input type="text" name="username"/><br>
+             Password <input type="text" name="password"/><br>
+             Permission level <input type="text" name="permission"/><br>
              <input class="button" type="submit" name="submit" value="delete"/><br>
 
              </form>
