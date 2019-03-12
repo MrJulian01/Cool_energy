@@ -62,7 +62,14 @@ else{
          <article class="right_article">
            <h4>Update Actie</h4>
            <form method="POST" action="../includes/update_actie.php">
-             Actieid <input type="text" name="actieid"/><br>
+             <table>
+             <tr><td>Actieid</td><td> <input type="text" name="actieid"/></td></tr>
+             <tr><td>Begindatum</td><td> <input type="text" name="begindatum"/></td></tr>
+             <tr><td>Einddatum en tijd</td><td> <input type="text" name="actieid"/></td></tr>
+             <tr><td>Omschrijving</td><td> <input type="text" name="actieid"/></td></tr>
+             
+
+           </table>
              Actie naam <input type="text" name="actienaam"/><br>
              Begin datum en tijd <input type="text" name="begindatum"/><br>
              Eind datum en tijd <input type="text" name="einddatum"/><br>
